@@ -160,6 +160,9 @@ INSERT INTO employees (name, dept, salary) VALUES
 
 -- Verify
 SELECT * FROM employees;
+
+\q
+
 ```
 
 ---
