@@ -179,8 +179,8 @@ Connect to PostgreSQL running in WSL2 from **pgAdmin** or **DBeaver** on Windows
 sudo nano /etc/postgresql/18/main/postgresql.conf
 ```
 
-Find:
-
+Find 
+To search for text in the nano editor, press Ctrl + W , type your search term at the prompt at the bottom of the screen, and press Enter
 ```
 #listen_addresses = 'localhost'
 ```
@@ -190,7 +190,7 @@ Change to:
 ```
 listen_addresses = '*'
 ```
-
+To save and exit the nano text editor, press Ctrl + X, then type Y, and press Enter
 ---
 
 ### Step 2: Update `pg_hba.conf`
